@@ -1,0 +1,95 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  background-color: lightblue;
+  display: grid;
+}
+
+header {
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+  color:#6F2020;
+  border-radius: 30px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+#external-link {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  position:relative;
+  top: 130px;
+}
+
+#external-link h2 {
+  margin-bottom: 10px;
+}
+
+.bottom-information {
+  background-color: pink;
+  color: #6F2020;
+  text-align: left;
+  margin-top: auto; /* Push footer to the bottom */
+  padding: 20px;
+}
+
+
+.button-container {
+  display: flex;
+}
+
+.button-container button {
+  flex: 1;
+  border-radius: 20px;
+  background-color:bisque;
+  height: 45px;
+  border-color: #6F2020;
+  color: #6F2020;
+  font-size: 18px;
+  /* Add any desired styling for the buttons */
+}
+/* Add any desired styling for the hidden content divs */
+
+.image {
+  width: 24%; /* set the width of the image to 100% */
+  height: auto; /* set the height of the image to auto to maintain aspect ratio */
+  object-fit: cover; /* or use other values like "contain" or "fill" depending on your desired behavior */
+  margin: 20px; /* remove any margin around the image */
+  padding: 0; /* remove any padding around the image */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh; /* Set a minimum height of the viewport height to ensure footer stays at bottom */
+}
+
+.milkchoices{
+  text-align: center;
+  font-size: 25px;
+}
