@@ -1,0 +1,83 @@
+<!--Unoffical Webpage of The Good Good LA-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Good Good LA</title>
+  <!-- for styling in css-->
+  <link rel="stylesheet" href="style.css">
+  <!--meta vieewport tag allows me to adjust its layout to fit the screen
+    of different devices. This should make a mobile responsive site-->
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+<body>
+  <!--the wrapper formats the elements and this for the top half-->
+  <div class="wrapper">
+    <header>
+      <h1>The Good Good LA</h1>
+      <!--about the business section-->
+      <p><Strong>About the business: We offer tasty pastries and some amazing coffee drinks.
+        Everything is Vegan and Animal Cruelty Free!</strong> </p>      
+    </header>
+    
+    <div class="button-container">
+      <button id="pastriesButton">Pastries</button>
+      <button id="drinksButton">Drinks</button>
+    </div>
+    <div id="pastriesContent" style="display: none;">
+      <!-- Content for pastries -->
+      <img src="pastries/Strawberrycake.webp"class="image">
+      <p><strong>Sweet slice of a Strawberry Vanilla Cake</strong> layered dessert with vanilla sponge cake, 
+        strawberry buttercream, and a touch of pistachio. Highly Recommended.
+      </p>
+      <!--calls the images-->
+      <img src="pastries/Chocolatechipcookie.webp" class="image">
+      <p>Who doesn't love a slightly salted chocolate chip cookie?
+      <strong>Deliciously balanced flavor</strong>
+      </p>
+     </div>
+
+     <div id="drinksContent" style="display: none;">
+      <!-- Content for drinks -->
+      <img src="drinks/VanillaLatte.jpg"class="image">
+      <p><strong>Vanilla Latte</strong> with the optional choice of cinnamon powder or chocolate powder toppings.
+      </p>
+      <!--calls the images-->
+      <img src="drinks/Carmelfrap.jpg" class="image">
+      <p><strong>Carmel Frappe</strong> blended with your choice of milk, added vanilla protein powder, and 
+        coconut whipped cream. 
+      </p>
+      <!--spacing to make the milk options appear at the bottom-->
+      <br>
+      <br>
+      <br>
+      <!--made a class called milkchoices to style the text within the div-->
+      <div class="milkchoices">
+      <p><strong>Milk options are Soy &middot Almond &middot Oat &middot Hemp</strong>
+      </p>
+    </div>
+     </div>
+     </div> <!--end of the wrapper for top half of he page-->
+
+     <div class="wrapper">
+    <section id="external-link">
+      <h2>Learn more about the Vegan Diet</h2>
+      <a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/how-to-maintain-a-balanced-diet-as-a-vegetarian-or-vegan"
+       target="_blank" class="btn">Click Here To Learn</a>
+    </section>
+    <footer class="bottom-information">
+      <p><strong>The Good Good LA</strong></p>
+      <p><strong>4871 Santa Monica Boulevard</strong></p>
+      <p><strong>Los Angeles, CA, 90029</strong></p>
+      <p><strong>&#40;323&#41;-570-0498</strong></p> 
+      <p><strong>Monday-Sunday only Appointment</strong></p>
+      <!-- Link to the external website with the photo gallery and price information -->
+      <a href="photogallery.html" target="_blank">Take a peek of our Photo Collection</a>
+
+
+    </footer>
+  
+  <!--this is where I add my script for javascript-->
+    <script src="script.js"></script> 
+    </div> <!--end of the wrapper for bottom half of the page -->
+</body>
+</html>
