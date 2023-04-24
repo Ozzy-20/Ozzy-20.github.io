@@ -2,13 +2,14 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #333;
   background-color: lightblue;
-  display: grid;
+  display: grid; /*not sure how to explain this*/
+  font-size:16px
 }
 
 header {
   background-color: pink;
   padding: 20px;
-  text-align: center;
+  text-align: center; /*moves the text in the center*/
   color:#6F2020;
   border-radius: 30px;
 }
@@ -31,9 +32,11 @@ h1 {
   background-color: #007bff;
   color: #fff;
   text-decoration: none;
-  border-radius: 5px;
+  /*makes the corners round*/
+  border-radius: 5px; 
 }
 
+/*when the user hovers the blue the color gets darker */
 .btn:hover {
   background-color: #0056b3;
 }
@@ -42,8 +45,10 @@ h1 {
   background-color: #f8f8f8;
   padding: 20px;
   text-align: center;
-  position:relative;
-  top: 130px;
+  /*not sure if this is needed*/
+  position:relative; 
+  /*keep this here so it doesnt stack on the footer*/
+  top: 20px;
 }
 
 #external-link h2 {
@@ -55,12 +60,12 @@ h1 {
   color: #6F2020;
   text-align: left;
   margin-top: auto; /* Push footer to the bottom */
-  padding: 20px;
+  padding: 20px; /*spacing between the words*/
 }
 
 
 .button-container {
-  display: flex;
+  display: flex; /*i think makes the button shrink and expand with scene*/
 }
 
 .button-container button {
@@ -73,10 +78,9 @@ h1 {
   font-size: 18px;
   /* Add any desired styling for the buttons */
 }
-/* Add any desired styling for the hidden content divs */
 
 .image {
-  width: 24%; /* set the width of the image to 100% */
+  width: 25%; 
   height: auto; /* set the height of the image to auto to maintain aspect ratio */
   object-fit: cover; /* or use other values like "contain" or "fill" depending on your desired behavior */
   margin: 20px; /* remove any margin around the image */
@@ -85,11 +89,37 @@ h1 {
 
 .wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*decides if the items should be arranged in a row or a column to make easy flexible and responsive layouts*/
   min-height: 50vh; /* Set a minimum height of the viewport height to ensure footer stays at bottom */
 }
-
+/*make this to style the text for the milk options*/
 .milkchoices{
   text-align: center;
   font-size: 25px;
+  
+}
+
+
+/* CSS styles for responsive layout */
+/* For screens with width up to 600px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+  header {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+  .image {
+    width: 100%; /* Set image width to 100% for smaller screens */
+  }
+}
+
+/* For screens with width up to 768px */
+@media screen and (max-width: 768px) {
+  .button-container {
+    flex-direction: column; /* Change buttons layout to vertical for smaller screens */
+  }
+  .button-container button {
+    margin-bottom: 10px; /* Add margin between buttons for smaller screens */
+  }
 }

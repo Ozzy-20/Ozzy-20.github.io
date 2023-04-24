@@ -1,0 +1,70 @@
+  <!--Unoffical page-->
+  <!--These photos are from The Good Good LA offical webpage-->
+  <!--Made this photo gallery by just coping the same style and then linking it to the homepage
+  so it gives the user a similar experience to the first page and not confused to a page
+that is not the companies brand-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PhotoGallery</title>
+  <!--for styling in css-->
+  <link rel="stylesheet" href="style.css">
+  <!--meta vieewport tag allows me to adjust its layout to fit the screen
+    of different devices. This should make a mobile responsive site-->
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+<body>
+  <!--the wrapper formats the elements and this for the top half-->
+  <div class="wrapper">
+    <header>
+      <h1>The Good Good LA</h1>
+      <!--about the business section-->
+      <p><Strong>Welcome to the PhotoGallery Page. This page showcases what our bussiness can produce if requested in Advance. Other foods can be made.
+        Everything is Vegan and Animal Cruelty Free!</strong></p>    
+        <span>Unoffical Webpage of The Good Good LA and some information content comes from their copyrighted Website!</span>  
+    </header>
+    <!--Allows the button to work -->
+    <div class="button-container">
+      <button id="pastriesButton">Muffin Photos</button>
+      <button id="drinksButton">Crossiant Photos</button>
+    </div>
+    <div id="pastriesContent" style="display: none;">
+      <!-- Content for pastries -->
+      <img src="pastries/strawberrymuffin.jpg"class="image">
+      <p><strong>Strawberry Muffin</strong> 
+      </p>
+      <!--calls the images-->
+      <img src="pastries/cocochocolatemuffin.jpg" class="image">
+      <p><strong> Coconut Chocolate Muffin</strong>
+      </p>
+     </div>
+
+     <div id="drinksContent" style="display: none;">
+      <!-- Content for crossiant -->
+      <img src="pastries/cheesecrossiant.jpg"class="image">
+      <p><strong>Cheese Crossiant</strong> 
+      </p>
+      <!--calls the images-->
+      <img src="pastries/chococrossiant.jpg" class="image">
+      <p><strong>Chocolate Crossiant</strong>
+      </p>
+      <!--spacing to make the milk options appear at the bottom-->
+    </div>
+     </div>
+     </div> <!--end of the wrapper for top half of he page-->
+
+     <footer class="bottom-information">
+      <p><strong>The Good Good LA</strong></p>
+      <p><strong>4871 Santa Monica Boulevard</strong></p>
+      <p><strong>Los Angeles, CA, 90029</strong></p>
+      <p><strong>&#40;323&#41;-570-0498</strong></p> 
+      <p><strong>Monday-Sunday only Appointment</strong></p>
+      <!-- Link to the external website with the photo gallery and price information -->
+      <a href="index.html" target="_blank">Go back to Homepage</a>
+    </footer>
+  
+  <!--this is where I add my script for javascript-->
+    <script src="script.js"></script> 
+    </div> <!--end of the wrapper for bottom half of the page -->
+</body>
+</html>
