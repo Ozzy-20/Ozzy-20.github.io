@@ -59,8 +59,9 @@ h1 {
 {
 
   background-color: pink;
+  font: italic;
   color: #6F2020;
-  text-align: center;
+  text-align: center;/* centerning content in footer Bv :) */
   margin-top: auto; /* Push footer to the bottom */
   padding: 20px; /*spacing between the words*/
 }
