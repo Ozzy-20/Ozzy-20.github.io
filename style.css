@@ -1,18 +1,22 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
   color: #333;
   background-color: lightblue;
   display: grid; /*not sure how to explain this*/
   font-size:16px
 }
 
-header {
+header 
+{
+  font: italic;
   background-color: pink;
   padding: 20px;
   text-align: center; /*moves the text in the center*/
   color:#6F2020;
   border-radius: 30px;
+
 }
+
 
 h1 {
   margin: 0;
@@ -59,7 +63,6 @@ h1 {
 {
 
   background-color: pink;
-  font: italic;
   color: #6F2020;
   text-align: center;/* centerning content in footer Bv :) */
   margin-top: auto; /* Push footer to the bottom */
