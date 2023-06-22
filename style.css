@@ -29,8 +29,8 @@ h1 {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: bisque;
+  color: #6f2020;
   text-decoration: none;
   /*makes the corners round*/
   border-radius: 5px; 
@@ -38,7 +38,7 @@ h1 {
 
 /*when the user hovers the blue the color gets darker */
 .btn:hover {
-  background-color: #0056b3;
+  background-color: lightblue;
 }
 
 #external-link {
@@ -73,7 +73,7 @@ h1 {
   border-radius: 20px;
   background-color:bisque;
   height: 45px;
-  border-color: #6F2020;
+  border-color: #000000;
   color: #6F2020;
   font-size: 18px;
   /* Add any desired styling for the buttons */
