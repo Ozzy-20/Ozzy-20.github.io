@@ -29,8 +29,8 @@ h1 {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: bisque;
+  color: #6f2020;
   text-decoration: none;
   /*makes the corners round*/
   border-radius: 5px; 
@@ -38,7 +38,7 @@ h1 {
 
 /*when the user hovers the blue the color gets darker */
 .btn:hover {
-  background-color: #0056b3;
+  background-color: lightblue;
 }
 
 #external-link {
@@ -55,10 +55,13 @@ h1 {
   margin-bottom: 10px;
 }
 
-.bottom-information {
+.bottom-information 
+{
+
   background-color: pink;
+  font: italic;
   color: #6F2020;
-  text-align: left;
+  text-align: center;/* centerning content in footer Bv :) */
   margin-top: auto; /* Push footer to the bottom */
   padding: 20px; /*spacing between the words*/
 }
@@ -112,6 +115,8 @@ h1 {
     width: 100%; /* Set image width to 100% for smaller screens */
   }
 }
+
+
 
 /* For screens with width up to 768px */
 @media screen and (max-width: 768px) {
