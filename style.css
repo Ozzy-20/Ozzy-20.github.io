@@ -10,42 +10,50 @@ header
 {
   font: italic;
   background-color: pink;
-  padding: 20px;
+  padding: 3%;
+ 
   text-align: center; /*moves the text in the center*/
   color:#6F2020;
   border-radius: 30px;
 
 }
-
-
-h1 {
+  
+h1 
+{
   margin: 0;
 }
 
-.product {
+.product 
+{
   margin-bottom: 20px;
 }
 
-.product img {
+.product img 
+{
   width: 100%;
 }
 
-.btn {
+.btn 
+{
   display: inline-block;
   padding: 10px 20px;
   background-color: bisque;
+  
   color: #6f2020;
   text-decoration: none;
+
   /*makes the corners round*/
-  border-radius: 5px; 
+  border-radius: 30px; 
 }
 
 /*when the user hovers the blue the color gets darker */
-.btn:hover {
+.btn:hover 
+{
   background-color: lightblue;
 }
 
-#external-link {
+#external-link 
+{
   background-color: #f8f8f8;
   padding: 20px;
   text-align: center;
@@ -55,7 +63,8 @@ h1 {
   top: 20px;
 }
 
-#external-link h2 {
+#external-link h2 
+{
   margin-bottom: 10px;
 }
 
@@ -70,18 +79,24 @@ h1 {
 }
 
 
-.button-container {
+.button-container 
+{
   display: flex; /*i think makes the button shrink and expand with scene*/
+
 }
 
-.button-container button {
+.button-container button 
+{
   flex: 1;
+  margin-top: 1%;
   border-radius: 20px;
+
   background-color:bisque;
   height: 45px;
   border-color: #000000; /* made the line of the pastries andd drinks button border black */
   color: #6F2020;
   font-size: 18px;
+ 
   /* Add any desired styling for the buttons */
 }
 
