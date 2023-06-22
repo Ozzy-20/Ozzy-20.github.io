@@ -86,7 +86,7 @@ h1 {
 }
 
 .image {
-  width: 200px; 
+  width: 200px; /*set the width with the same size as the rest of the images*/
   height: 200px; /* set the height of the image to auto to maintain aspect ratio */
   margin: 20px; /* remove any margin around the image */
   padding: 0; /* remove any padding around the image */
